@@ -1,0 +1,13 @@
+
+
+/**
+ * Nand gate: out = a Nand b.
+ */
+
+CHIP Nand {
+
+    IN  a, b;
+    OUT out;
+
+    BUILTIN Nand;
+}
